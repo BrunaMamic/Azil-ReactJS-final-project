@@ -1,0 +1,8 @@
+.listDivs{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 25px;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,18 @@
+.editMain{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+}
+
+.pageView{
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    background-color: rgb(215 215 215 / 11%);
+}
+
+.error{
+    color: red;
+    font-size: 17px;
+}

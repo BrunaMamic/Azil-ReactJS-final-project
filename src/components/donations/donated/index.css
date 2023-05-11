@@ -1,0 +1,13 @@
+.donationEditDonated {
+  display: flex;
+  flex-direction: row;
+  background: #00000073;
+  border-radius: 19px;
+  height: 250px;
+}
+
+.bi-repeat:hover {
+  color: wheat;
+  box-shadow: none;
+  font-size: 1.6rem;
+}

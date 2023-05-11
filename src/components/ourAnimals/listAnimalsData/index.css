@@ -1,0 +1,135 @@
+.edit {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 19px;
+  width: 280px;
+  height: 400px;
+  position: relative;
+  background-color: rgb(255 255 255);
+  color: #3c5e3d;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.true{
+  background: #ffffff !important;
+  border: 2px solid rgb(255 110 110 / 28%) !important;
+  font-weight: bolder !important;
+}
+
+.bi-info-lg,
+.bi-pencil-square {
+  color: rgb(79, 75, 75);
+}
+
+.bi-pencil-square:hover {
+  color: rgb(144, 140, 140);
+  font-size: 1.2em;
+}
+
+.bi-info-lg:hover {
+  color: rgb(144, 140, 140);
+  font-size: 1.2em;
+}
+
+.imgPlaceholder {
+  height: 200px;
+  width: 200px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/800px-Placeholder_view_vector.svg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.forDivs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.moreButton {
+  margin-right: 10px;
+  color: black;
+  font-size: 1.1em;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.updateButton {
+  margin-right: 10px;
+  color: black;
+  font-size: 1.1em;
+  box-shadow: unset;
+  background: transparent;
+}
+
+.updateButton:hover {
+  box-shadow: unset;
+}
+
+.adoptButton {
+  margin-right: 10px;
+  border-radius: 50px;
+  color: #000000;
+  background-color: transparent;
+}
+
+.adoptButton:hover {
+  font-size: 1.1em;
+}
+
+.actionContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.adoptedModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0 0 0 / 63%);
+  padding: 4rem;
+  border-radius: 10%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(211, 211, 211);
+}
+
+.editModal {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.adoptionForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitContact{
+  margin-top: 10px;
+  color: black;
+}

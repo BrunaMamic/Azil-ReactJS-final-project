@@ -1,0 +1,63 @@
+.home {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 span {
+  padding: 0 10px;
+}
+
+.home .slide {
+  min-height: 30rem;
+  max-height: 50rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-size: cover !important;
+  background-position: center !important;
+  border-bottom: 2px solid #958e8e2b;
+}
+
+.home .slide .content {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  line-height: 0.1em;
+  margin: 100px 0 200px;
+}
+
+.home .slide .content h3 {
+  font-size: 9rem;
+}
+
+.home .slide .content a {
+  font-size: 3.7rem;
+  line-height: 2;
+
+  padding: 1rem 0;
+}
+
+.contentHeader {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  margin: 100% auto;
+  padding: 5rem 10%;
+  /* background-color: #d5d5d55e; */
+  /* margin-bottom: 1450px; */
+  /* width: 100vw; */
+  
+}
+
+.headerFont{
+  font-size: 6rem;
+}
+@media only screen and (max-width: 600px) {
+  .headerFont {
+    font-size: 60px;
+    white-space: nowrap;
+  }
+}

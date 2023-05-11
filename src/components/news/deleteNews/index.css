@@ -1,0 +1,16 @@
+.deleteButton{
+    background: transparent;
+    box-shadow: none;
+    font-size: 1.5rem;
+}
+
+.deleteButton:hover{
+    background: transparent;
+    box-shadow: none;
+    font-size: 1.5rem;
+    
+}
+
+.bi-trash3:hover{
+    color: rgb(143, 14, 32);
+}

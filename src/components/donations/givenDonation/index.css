@@ -1,0 +1,13 @@
+.donationEditGiven {
+  display: flex;
+  flex-direction: row;
+  background: #d5b35642;
+  border-radius: 19px;
+  height: 250px;
+}
+
+.bi-check-lg:hover {
+  color: wheat;
+  box-shadow: none;
+  font-size: 1.6rem;
+}

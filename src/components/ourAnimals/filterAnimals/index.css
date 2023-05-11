@@ -1,0 +1,17 @@
+.button-containerType,
+.button-containerAdopted {
+  display: flex;
+  border: 1px solid rgb(0 0 0 / 11%);
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.filterButton {
+  margin: 5px;
+  color: rgba(18, 18, 18, 0.42);
+}
+
+.active{
+  border: 1px solid gray;
+}

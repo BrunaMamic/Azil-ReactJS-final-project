@@ -1,0 +1,6 @@
+.mainAnimalsList{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    margin-top: 90px;
+}

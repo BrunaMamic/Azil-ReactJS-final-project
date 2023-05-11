@@ -1,0 +1,84 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  padding: 15px;
+  margin: 20px;
+}
+
+.story {
+  margin: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding: 30px;
+  background: rgb(219 219 219 / 34%);
+  font-weight: 480;
+}
+
+.naslov {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  font-style: italic;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+.contactButton {
+  display: flex;
+  justify-content: center;
+}
+
+.iconsAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.edited {
+  display: flex;
+  flex-direction: row;
+  background: rgb(255 255 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .edited {
+    flex-direction: column;
+  }
+}
+
+.titleAndStory{
+  background: url(https://static.vecteezy.com/system/resources/previews/002/469/425/non_2x/seamless-pattern-with-animal-paw-prints-gray-paws-on-a-white-background-illustration-endless-background-free-vector.jpg);
+  border-bottom: 2px solid hsla(0, 0%, 0%, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.contact{
+  display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+}
+
+.contact:hover{
+  font-size: 1.15rem;
+  background-color: rgba(219, 219, 219, 0.89);
+}
+
+.aboutMore{
+  display: flex;
+  flex-direction: column;
+}

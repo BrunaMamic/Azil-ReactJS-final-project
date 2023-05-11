@@ -1,0 +1,81 @@
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header {
+  padding: 60px;
+  text-align: left;
+  background: rgb(255 230 186 / 42%);
+  color: rgba(108, 108, 107, 0.482);
+
+  display: inherit;
+}
+
+.headerContent {
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(255 230 186 / 42%);
+  display: inherit;
+  padding: 100px;
+}
+
+.picForAddForm {
+  width: 50%;
+}
+
+.addForm {
+  margin-left: 50px;
+  padding: 90px;
+  background: aliceblue;
+  border-radius: 26% 74% 30% 70% / 73% 23% 77% 27%;
+  box-shadow: -20px 10px 12px 0px #2f394473;
+}
+
+.adding {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.inputAddForm {
+  font-size: 1.6rem;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.selectAdd {
+  border-radius: 20px;
+  background: #e5f3ff;
+  font-size: 1.1rem;
+  box-shadow: 7px 2px 14px 3px #2f394473;
+  border: none;
+}
+
+.aboutText {
+  display: flex;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .picForAddForm {
+    display: none;
+  }
+  .addForm{
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,52 @@
+.bla {
+  margin-top: 40px;
+  border: 1px solid rgb(155 183 157 / 76%);
+  background: rgb(231 235 232 / 59%);
+  color: rgb(16 72 59);
+}
+
+.true {
+  border: 2px solid rgb(163 0 0 / 31%);
+  background: rgb(255 190 190 / 23%);
+  font-size: 1.2rem;
+  font-family: 'bootstrap-icons';
+  color: #930000;
+}
+
+.newsEdit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .newsEdit {
+    flex-direction: column;
+  }
+  .newsSubEdit{
+    margin-left: 0 !important;
+  }
+}
+
+.newsSubEdit {
+  margin-left: 162px;
+  padding: 25px;
+}
+
+.title {
+  padding: 25px;
+  font-size: 1.4em;
+  margin-left: 20px;
+}
+
+.actionButtonNews {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin-right: 20px;
+
+}
+
+.bi-file-earmark-plus {
+  font-size: 1.7rem;
+}

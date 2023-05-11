@@ -1,0 +1,68 @@
+.buttonContainer{
+    display: flex;
+    justify-content: start;
+    margin: 40px;
+}
+
+.donationNavBtn{
+    border-radius: 53px;
+    /* padding: 10px 20px 10px 20px; */
+    padding: 20px;
+    color: black;
+    background: wheat;
+}
+
+.donationNavBtn:hover{
+    background-color: rgb(255, 232, 190);
+    cursor: pointer;
+}
+
+.bi-plus{
+    font-size: 1.24rem;
+}
+
+.newDonationHeader{
+    min-height: 30rem;
+    max-height: 50rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.donationForm{
+    background: #85795a8f;
+    padding: 30px;
+}
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+select, input, textarea{
+    margin: 10px;
+}
+
+.donateButton{
+    background: transparent;
+    box-shadow: none;
+    
+}
+
+.donateButton:hover{
+    background: transparent;
+    box-shadow: none;
+    
+}
+
+.bi-check-circle{
+    color: rgb(48, 41, 31);
+    font-size: 1.9rem;
+}
+
+.bi-check-circle:hover{
+    color: rgb(227, 227, 227);
+    font-size: 2rem;
+}
