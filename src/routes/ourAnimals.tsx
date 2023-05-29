@@ -18,7 +18,7 @@ export default function OurAnimals() {
   };
 
   useEffect(() => {
-    axios.get('http://localhost:3001/zivotinje/').then(res => {
+    axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje/').then(res => {
       SetOurAnimalsList(res.data);
     });
   }, []);

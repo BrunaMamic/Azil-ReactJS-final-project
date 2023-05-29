@@ -34,7 +34,7 @@ const AddNews = (props: any) => {
 
   async function createNews() {
     const result = processData(addNews);
-    const data = await axios.post('http://localhost:3001/obavijesti', result);
+    const data = await axios.post('https://my-json-server.typicode.com/BrunaMamic/azil-server/obavijesti', result);
 
     props.setListNews((prev: any) => {
       return [ data.data,...prev];

@@ -10,7 +10,7 @@ const Donated = (props: any) => {
   const [idToDelete, setIdToDelete] = useState();
 
   const createDonation = async (item: any) => {
-    const data = await axios.post('http://localhost:3001/donacije', {
+    const data = await axios.post('https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije', {
       tip: item.tip,
       vrijednost: item.vrijednost,
       opis: item.opis,

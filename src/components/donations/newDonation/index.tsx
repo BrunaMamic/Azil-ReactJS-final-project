@@ -37,7 +37,7 @@ const NewDonation = (props: any) => {
   async function createDonation() {
     const result = processData(newDonation);
 
-    const data = await axios.post('http://localhost:3001/donacije', result);
+    const data = await axios.post('https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije', result);
     props.setDonations((prev: any) => {
       return [...prev, data.data];
     });

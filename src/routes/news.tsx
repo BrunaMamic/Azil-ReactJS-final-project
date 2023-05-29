@@ -9,7 +9,7 @@ export default function News() {
   const [listNews, setListNews] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/obavijesti/').then(res => {
+    axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/obavijesti/').then(res => {
         setListNews(res.data);
     });
   }, []);

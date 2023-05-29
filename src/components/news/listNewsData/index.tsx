@@ -12,7 +12,7 @@ const ListNewsData = (props: any) => {
 
   const handleChange = () => {
     setImportant((current: any) => !current);
-    axios.patch('http://localhost:3001/obavijesti/' + props.id, {
+    axios.patch('https://my-json-server.typicode.com/BrunaMamic/azil-server/obavijesti/' + props.id, {
       vazno: !important,
       datum: new Date().toISOString(),
     });

@@ -11,7 +11,7 @@ export default function Donations() {
   const [donations, setDonations] = useState([]);
 
   const getAllDonations = async () => {
-    const data = await axios.get('http://localhost:3001/donacije/');
+    const data = await axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije/');
     setDonations(data.data);
   };
 
@@ -20,7 +20,7 @@ export default function Donations() {
   }, []);
 
   const changeStatusToDonated = async (item: any) => {
-    await axios.patch(`http://localhost:3001/donacije/${item.id}`, {
+    await axios.patch(`https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije/${item.id}`, {
       ...item,
       kategorija: 'donirano',
     });

@@ -16,8 +16,8 @@ const DeleteNews = (props: any) => {
   }, [props.id]);
 
   async function deleteData() {
-    await axios.delete(`http://localhost:3001/obavijesti/${dataID}`);
-    const data = await axios.get('http://localhost:3001/obavijesti');
+    await axios.delete(`https://my-json-server.typicode.com/BrunaMamic/azil-server/obavijesti/${dataID}`);
+    const data = await axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/obavijesti');
     props.delete(data.data);
   }
 

@@ -20,7 +20,7 @@ const EditAnimals = (props: any) => {
     event.preventDefault();
     const result = proccesData(editAnimals);
     const data = await axios.put(
-      'http://localhost:3001/zivotinje/' + props.id,
+      'https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje/' + props.id,
       result,
     );
     props.SetOurAnimals((prev: any) => {

@@ -11,7 +11,7 @@ export default function About() {
   const [contactInfo, setContactInfo] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/contact/').then(res => {
+    axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/contact/').then(res => {
       setContactInfo(res.data);
     });
   }, []);

@@ -15,8 +15,8 @@ const DeleteDonations = (props: any) => {
   }, [props.idToDelete]);
 
   async function deleteData() {
-    await axios.delete(`http://localhost:3001/donacije/${dataID}`);
-    const data = await axios.get('http://localhost:3001/donacije');
+    await axios.delete(`https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije/${dataID}`);
+    const data = await axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/donacije');
     props.setDonations(data.data);
   }
   return (

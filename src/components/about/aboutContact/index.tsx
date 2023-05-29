@@ -34,7 +34,7 @@ const AboutContact = (props: any) => {
 
   async function createContact() {
     const result = proccesData(newContact);
-    const data = await axios.post('http://localhost:3001/contact', result);
+    const data = await axios.post('https://my-json-server.typicode.com/BrunaMamic/azil-server/contact', result);
     onSubmit()
 
     props.setContactInfo((prev:any) => {

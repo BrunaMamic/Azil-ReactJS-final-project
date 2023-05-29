@@ -31,7 +31,7 @@ const ListAnimalsData = (props: any) => {
 
   function send() {
     axios
-      .patch('http://localhost:3001/zivotinje/' + props.id, {
+      .patch('https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje/' + props.id, {
         udomljen: true,
       })
     setImportant(!important);

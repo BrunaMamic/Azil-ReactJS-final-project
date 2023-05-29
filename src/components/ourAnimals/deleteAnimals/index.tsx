@@ -15,8 +15,8 @@ const DeleteAnimal = (props: any) => {
   }, [props.id]);
 
   async function deleteData() {
-    await axios.delete(`http://localhost:3001/zivotinje/${dataID}`);
-    const data = await axios.get('http://localhost:3001/zivotinje');
+    await axios.delete(`https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje/${dataID}`);
+    const data = await axios.get('https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje');
     props.delete(data.data);
     setModal(false);
   }

@@ -26,7 +26,7 @@ const AddAnimals = (props: any) => {
 
   async function createAnimal() {
     const result = proccesData(props.animal);
-    await axios.post('http://localhost:3001/zivotinje', result);
+    await axios.post('https://my-json-server.typicode.com/BrunaMamic/azil-server/zivotinje', result);
 
     props.setOurAnimals({
       id: '',
