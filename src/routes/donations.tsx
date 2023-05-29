@@ -1,16 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import axios from 'axios';
-import {useContext, useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import Donated from '../components/donations/donated';
 import GivenDonations from '../components/donations/givenDonation';
 import LookingForDonation from '../components/donations/lookingFor';
 import NewDonation from '../components/donations/newDonation';
-import {RoleContext} from '../context';
 
 export default function Donations() {
   const [donations, setDonations] = useState([]);
-  const role = useContext(RoleContext);
 
   const getAllDonations = async () => {
     const data = await axios.get('http://localhost:3001/donacije/');

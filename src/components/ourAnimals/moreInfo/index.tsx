@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.css';
 const MoreInfo = (props: any) => {
   return (

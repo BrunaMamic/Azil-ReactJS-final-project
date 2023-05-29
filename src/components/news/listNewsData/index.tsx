@@ -10,8 +10,7 @@ const ListNewsData = (props: any) => {
   const [important, setImportant] = useState<boolean>(props.vazno);
   
 
-  const handleChange = (event: any) => {
-
+  const handleChange = () => {
     setImportant((current: any) => !current);
     axios.patch('http://localhost:3001/obavijesti/' + props.id, {
       vazno: !important,

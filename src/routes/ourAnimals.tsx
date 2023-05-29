@@ -4,10 +4,9 @@ import axios from 'axios';
 
 import ListAnimals from '../components/ourAnimals/listAnimals';
 import FilterAnimals from '../components/ourAnimals/filterAnimals';
-import AddAnimals from '../components/addAnimals/addForm';
 import '../styles/index.css';
 
-export default function OurAnimals(props: any) {
+export default function OurAnimals() {
   const [ourAnimalsList, SetOurAnimalsList] = useState([]);
   const [filterForAnimals, setFilterForAnimals] = useState({
     vrsta: '',

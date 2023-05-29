@@ -1,13 +1,11 @@
 import {Outlet, Link} from 'react-router-dom';
 import {RoleContext} from '../context';
-import {useContext, useState} from 'react';
+import {useState} from 'react';
 import {Menu, MenuItem, Sidebar, useProSidebar} from 'react-pro-sidebar';
-import {useSidebar} from 'react-pro-sidebar/dist/hooks/useSidebar';
 
 import '../index.css'
 
 export default function Root() {
-  const role = useContext(RoleContext);
 
   const {collapseSidebar} = useProSidebar();
 

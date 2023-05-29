@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import {useForm} from 'react-hook-form';
 import './index.css';
 
@@ -12,7 +12,7 @@ const AboutContact = (props: any) => {
     reset,
   } = useForm();
 
-  const onSubmit = (data: any) => {
+  const onSubmit = () => {
     reset();
     props.toggleModal();
   };

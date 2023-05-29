@@ -1,6 +1,5 @@
 import axios from 'axios';
 import {useContext, useState} from 'react';
-import {ToggleButton} from 'react-bootstrap';
 import {useForm} from 'react-hook-form';
 import {RoleContext} from '../../../context';
 import './index.css';
@@ -17,7 +16,6 @@ const NewDonation = (props: any) => {
   const {
     register,
     handleSubmit,
-    formState: {errors},
     reset,
   } = useForm();
 

@@ -23,9 +23,7 @@ const AddNews = (props: any) => {
     register,
     handleSubmit,
     reset,
-    formState: {errors},
   } = useForm();
-  const onSubmit = (data: any) => console.log(data);
 
   function handler(event: any) {
     const {name, value} = event.target;

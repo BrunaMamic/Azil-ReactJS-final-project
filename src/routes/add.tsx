@@ -1,8 +1,7 @@
 import {useState} from 'react';
 import AddAnimals from '../components/addAnimals/addForm';
-import OurAnimals from './ourAnimals';
 
-export default function Add(props: any) {
+export default function Add() {
   const [animal, setAnimal] = useState({
     id: '',
     vrsta: '',

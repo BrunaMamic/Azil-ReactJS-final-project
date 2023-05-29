@@ -8,11 +8,6 @@ import './index.css';
 const EditAnimals = (props: any) => {
   const {register} = useForm();
   const [editAnimals, setEditedAnimals] = useState(props.animal);
-  const [editModal, toggleEditModal] = useState(false);
-
-  const toggleModal = () => {
-    toggleEditModal(!editModal);
-  };
 
   const changeHandler = (event: any) => {
     const {name, value} = event.target;
