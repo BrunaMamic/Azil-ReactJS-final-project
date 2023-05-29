@@ -1,0 +1,274 @@
+{
+  "obavijesti": [
+    {
+      "id": 3,
+      "naslov": "Join Our Adoption Event",
+      "datum": "2023-05-11T11:06:11.873Z",
+      "tekst": "This event is your chance to make a lifelong connection and give a shelter pet a second chance at happiness.",
+      "vazno": true
+    },
+    {
+      "id": 4,
+      "naslov": "Support Us",
+      "datum": "2023-05-11T18:25:01.262Z",
+      "tekst": "Make a lasting difference in the lives of shelter animals by supporting our cause. Your donation will provide food, and a safe haven for these animals as they await their forever homes. ",
+      "vazno": true
+    },
+    {
+      "id": 5,
+      "naslov": "Peaceful Strike",
+      "datum": "2023-05-11T11:07:26.333Z",
+      "tekst": "In a powerful demonstration of solidarity, passionate animal rights advocates gathered today in a peaceful strike, demanding justice and a brighter future for our fellow sentient beings",
+      "vazno": ""
+    },
+    {
+      "id": 7,
+      "naslov": "Hello ",
+      "datum": "2023-04-01T22:00:00.000Z",
+      "tekst": "Pellentesque posuere. In consectetuer turpis ut velit. Etiam ut purus mattis mauris sodales aliquam. Vivamus euismod mauris. Praesent vestibulum dapibus nibh.",
+      "vazno": ""
+    }
+  ],
+  "donacije": [
+    {
+      "id": 5,
+      "kategorija": "",
+      "tip": "Blankets",
+      "vrijednost": "12",
+      "opis": ""
+    },
+    {
+      "id": 7,
+      "kategorija": "nudi",
+      "tip": "Toys",
+      "vrijednost": "20",
+      "opis": "My pet passed away so I want to make others happy and give them toys"
+    },
+    {
+      "id": 8,
+      "kategorija": "donirano",
+      "tip": "Toys",
+      "vrijednost": "0",
+      "opis": "Brighten the lives of shelter animals by donating toys and giving them the gift of joy and play."
+    },
+    {
+      "id": 9,
+      "kategorija": "trazi",
+      "tip": "Blankets",
+      "vrijednost": "0",
+      "opis": "Your donation of blankets can provide much-needed comfort and warmth to the animals in our shelter, offering them a cozy refuge during their stay and helping them feel safe and secure."
+    },
+    {
+      "id": 10,
+      "kategorija": "trazi",
+      "tip": "Food",
+      "vrijednost": "0",
+      "opis": "By donating food, you can help ensure that the animals in our shelter receive the nourishment they need to stay healthy and happy while they await their forever homes."
+    },
+    {
+      "id": 11,
+      "kategorija": "donirano",
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!"
+    },
+    {
+      "id": 12,
+      "kategorija": "nudi",
+      "tip": "Food",
+      "vrijednost": "50",
+      "opis": "I want to Donate Food Today and Provide them with Nutritious Meals and Full Bellies."
+    },
+    {
+      "id": 13,
+      "kategorija": "nudi",
+      "tip": "Food",
+      "vrijednost": "60",
+      "opis": "..."
+    },
+    {
+      "id": 14,
+      "kategorija": "nudi",
+      "tip": "Blankets",
+      "vrijednost": "50",
+      "opis": "..."
+    },
+    {
+      "tip": "Toys",
+      "vrijednost": "0",
+      "opis": "Brighten the lives of shelter animals by donating toys and giving them the gift of joy and play.",
+      "kategorija": "trazi",
+      "id": 15
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "donirano",
+      "id": 16
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "donirano",
+      "id": 17
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "trazi",
+      "id": 18
+    },
+    {
+      "id": 22,
+      "kategorija": "donirano",
+      "tip": "Food",
+      "vrijednost": "20",
+      "opis": ""
+    },
+    {
+      "id": 26,
+      "kategorija": "donirano",
+      "tip": "Toys",
+      "vrijednost": "22",
+      "opis": ""
+    }
+  ],
+  "zivotinje": [
+    {
+      "id": 2,
+      "vrsta": "Dog",
+      "ime": "Papi",
+      "godine": "0.7",
+      "image": "https://images.unsplash.com/photo-1678643207050-c815b6323e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "opis": "With its soft fur and gentle eyes, the dog had an irresistible charm that melted the hearts of everyone it encountered.",
+      "pregled": "2023-04-09",
+      "cip": true,
+      "udomljen": true
+    },
+    {
+      "id": 3,
+      "vrsta": "Dog",
+      "ime": "Papi sr",
+      "godine": "5",
+      "image": "https://images.unsplash.com/photo-1681154150370-78057c6a2cfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "opis": "Whether curling up by the fireplace or going for long walks in the park, the dog was content as long as it was in the company of its beloved family.",
+      "pregled": "2023-05-07",
+      "cip": false,
+      "udomljen": true
+    },
+    {
+      "id": 4,
+      "vrsta": "Dog",
+      "ime": "Marko",
+      "godine": "1.2",
+      "image": "https://images.unsplash.com/photo-1593578575547-ad6fb40f0d49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "opis": "The dog was a loyal companion, always by their owner's side with a wagging tail and a joyful demeanor.",
+      "pregled": "2023-05-02",
+      "cip": true,
+      "udomljen": ""
+    },
+    {
+      "id": 5,
+      "vrsta": "Dog",
+      "ime": "Stella",
+      "godine": "3",
+      "image": "https://images.unsplash.com/photo-1583887961676-5a76b2832837?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1251&q=80",
+      "opis": "Meet our beloved canine companion, a spirited and affectionate dog whose playful nature brings joy to our lives every day.",
+      "pregled": "2023-03-14",
+      "cip": true,
+      "udomljen": true
+    },
+    {
+      "id": 6,
+      "vrsta": "Dog",
+      "ime": "Papita",
+      "godine": "2",
+      "image": "https://images.unsplash.com/photo-1670752826970-61d95e7e842c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "opis": "Our four-legged friend fills our lives with endless laughter, amusing us with their silly antics and infectious zest for life.",
+      "pregled": "2023-05-01",
+      "cip": true,
+      "udomljen": true
+    },
+    {
+      "id": 7,
+      "vrsta": "Cat",
+      "ime": "Fifi",
+      "godine": "2",
+      "image": "https://images.unsplash.com/photo-1655970570600-5416b8abaf94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "opis": "The shelter cat, with its soulful eyes and gentle purrs, longed for a loving home where it could find comfort and companionship.",
+      "pregled": "2023-05-14",
+      "cip": false,
+      "udomljen": false
+    },
+    {
+      "id": 8,
+      "vrsta": "Cat",
+      "ime": "Garfield",
+      "godine": "3",
+      "image": "https://images.unsplash.com/photo-1512616643169-0520ad604fc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "opis": "",
+      "pregled": "2023-01-09",
+      "cip": false,
+      "udomljen": true
+    },
+    {
+      "id": 9,
+      "vrsta": "Dog",
+      "ime": "Lada",
+      "godine": "4",
+      "image": "https://images.unsplash.com/photo-1550791970-613acd0edf84?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80",
+      "opis": "Through thick and thin, our dog has stood by us, offering comfort, companionship, and an unwavering source of solace during challenging times.",
+      "pregled": "2023-04-02",
+      "cip": true,
+      "udomljen": false
+    },
+    {
+      "id": 10,
+      "vrsta": "Dog",
+      "ime": "Pupa",
+      "godine": "0.4",
+      "image": "https://images.unsplash.com/photo-1593991910379-b414c1e3bd74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=845&q=80",
+      "opis": "",
+      "pregled": "2023-05-11",
+      "cip": false,
+      "udomljen": ""
+    },
+    {
+      "id": 11,
+      "vrsta": "Dog",
+      "ime": "Negra",
+      "godine": "1",
+      "image": "https://images.unsplash.com/photo-1554830072-52d78d0d4c18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "opis": "Known for its intelligence and trainability, the dog quickly learned commands and eagerly performed tricks to impress its owner.",
+      "pregled": "2022-09-13",
+      "cip": false,
+      "udomljen": ""
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "firstName": "Bruns",
+      "lastName": "Mamic",
+      "email": "bm@gmail.com",
+      "message": "Hello, I hope this message finds you well. I am reaching out to inquire about the adoption process at your shelter. I've been considering opening my home to a furry companion and would love to learn more about the available animals and the requirements for adoption. Additionally, if there are any upcoming events or volunteer opportunities, I would be eager to contribute to your cause."
+    },
+    {
+      "id": 2,
+      "firstName": "Marko",
+      "lastName": "Maric",
+      "email": "bm47679@unist.hr",
+      "message": "Please let me know if there are any current openings or upcoming projects where my assistance would be valued. I am excited to join your team and make a positive impact on the lives of these deserving creatures."
+    },
+    {
+      "id": 3,
+      "firstName": "Bruna",
+      "lastName": "Mamic",
+      "email": "brunamamic00@gmail.com",
+      "message": "test"
+    }
+  ]
+}
