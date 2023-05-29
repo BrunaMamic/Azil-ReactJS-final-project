@@ -45,12 +45,12 @@ const router = createBrowserRouter([
     ],
   },
 
-]);
+], {basename: '/Azil-ReactJS-final-project/'});
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ProSidebarProvider>
-      <RouterProvider router={router} />
+      <RouterProvider  router={router} />
     </ProSidebarProvider>
   </React.StrictMode>,
 );
