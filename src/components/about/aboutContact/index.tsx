@@ -35,7 +35,7 @@ const AboutContact = (props: any) => {
   async function createContact() {
     const result = proccesData(newContact);
     const data = await axios.post('http://localhost:3001/contact', result);
-    onSubmit(data)
+    onSubmit()
 
     props.setContactInfo((prev:any) => {
       return [...prev, data.data];

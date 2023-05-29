@@ -5,7 +5,7 @@ import './index.css';
 const ListNews = (props: any) => {
   return (
     <div className="listDivs">
-      {props.listNews.sort((a: any,b: any) => new Date(b.datum)- new Date(a.datum)).map((news: any) => (
+      {props.listNews.sort((a: any,b: any) => new Date(b.datum).getDate() - new Date(a.datum).getDate()).map((news: any) => (
         <ListNewsData
           key={news.id}
           id={news.id}
